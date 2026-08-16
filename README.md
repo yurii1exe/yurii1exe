@@ -22,10 +22,12 @@ I've shipped in four domains, and the constraint is what changes — not the cra
 ### Selected work
 
 **[freight-dispatch-board](https://github.com/yurii1exe/freight-dispatch-board)**
-· *.NET 8 · Angular · real-time state machine*
-A dispatch board driven by a stateful workflow over multi-stop routes, with EDI
-in and out. Every state transition emits a message that's parsed straight back to
-prove it's valid — and the human view sits next to the wire format on screen.
+· *.NET 8 · Angular · real-time state machine · file-drop integration*
+A complete document lifecycle over a watched directory: a tender arrives, an
+acknowledgment goes back within seconds, the load is worked across multiple
+stops emitting status messages at each, and an invoice closes it out. Every
+generated document is re-parsed by an independent process to prove it's valid,
+and the human view sits beside the wire format on screen.
 
 ![dispatch board](https://github.com/yurii1exe/freight-dispatch-board/raw/main/docs/board-demo.gif)
 
@@ -47,6 +49,16 @@ segment rather than an assumption.*
 Server-side API integration with real failure handling — including an upstream
 that returns 404 for "bad credential" and 404 for "not found", which most clients
 get wrong. 103 tests.
+
+**[opc-ua-monitor](https://github.com/yurii1exe/opc-ua-monitor)**
+· *.NET 8 · SignalR · Angular · OPC UA*
+Live monitoring for industrial equipment — a service subscribes to node changes
+on an OPC UA server and streams them to a dashboard that plots them in real time.
+It states the browser↔API and API↔equipment links **separately**, because they
+fail for different reasons: on connection loss the last values are held and
+visibly labelled as held, rather than shown as though they were current.
+
+![opc dashboard](https://raw.githubusercontent.com/yurii1exe/opc-ua-monitor/main/docs/live.gif)
 
 **[ECommerce-Restaurant](https://github.com/yurii1exe/ECommerce-Restaurant)**
 · *.NET · microservices · Docker*
