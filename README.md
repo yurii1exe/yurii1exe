@@ -29,7 +29,7 @@ stops emitting status messages at each, and an invoice closes it out. Every
 generated document is re-parsed by an independent process to prove it's valid,
 and the human view sits beside the wire format on screen.
 
-![dispatch board](https://github.com/yurii1exe/freight-dispatch-board/raw/main/docs/board-demo.gif)
+![dispatch board](https://raw.githubusercontent.com/yurii1exe/freight-dispatch-board/main/docs/board-demo.gif)
 
 **[edi-x12-toolkit](https://github.com/yurii1exe/edi-x12-toolkit)**
 · *C# · netstandard2.0 + net8.0 · dotnet CLI*
@@ -50,6 +50,13 @@ Server-side API integration with real failure handling — including an upstream
 that returns 404 for "bad credential" and 404 for "not found", which most clients
 get wrong. 103 tests.
 
+![fmcsa carrier check](https://raw.githubusercontent.com/yurii1exe/fmcsa-carrier-check/main/docs/demo.gif)
+
+*A carrier name typed into the box is rejected before any request goes out; a
+USDOT number then returns authority, insurance filings, safety rating and 24
+months of inspections. Recorded against the repository's fixture payload, which
+the page labels on screen throughout.*
+
 **[opc-ua-monitor](https://github.com/yurii1exe/opc-ua-monitor)**
 · *.NET 8 · SignalR · Angular · OPC UA*
 Live monitoring for industrial equipment — a service subscribes to node changes
@@ -65,11 +72,22 @@ visibly labelled as held, rather than shown as though they were current.
 Four services, Redis-backed basket, two EF Core databases, Serilog to Seq, behind
 nginx, with an Angular front end. The whole stack comes up under Compose.
 
+[Demo GIF](https://raw.githubusercontent.com/yurii1exe/ECommerce-Restaurant/main/docs/owlet-demo.gif)
+— an order placed in the storefront, then the same order arriving on the admin
+order-events page with the bus latency for each message.
+
 **[Playbook](https://github.com/yurii1exe/Playbook)**
 · *.NET · Puppeteer · MongoDB*
 A resilient scraping pipeline — 16 sources, layered selector fallbacks,
 idempotent writes, and a retry budget, because the sites change without warning
 and the job still has to finish.
+
+![playbook worker](https://raw.githubusercontent.com/yurii1exe/Playbook/main/docs/playbook-demo.gif)
+
+*A real run: 16 leagues seeded from JSON into an empty MongoDB, a league and
+season chosen at the prompt, 30 matches found on the page, the 19 fixtures that
+have not been played rejected from their header alone, and the 11 finished
+matches parsed and written. Six minutes of running time, time-compressed.*
 
 ---
 
