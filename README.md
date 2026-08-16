@@ -36,6 +36,12 @@ where the delimiters are declared inside the first segment that uses them. Zero
 dependencies, 64 tests, and a CLI whose every documented transcript is
 regression-tested against the real binary.
 
+![edix12 cli](https://raw.githubusercontent.com/yurii1exe/edi-x12-toolkit/main/docs/edix12-demo.gif)
+
+*Same command, two files — one delimited with `*` and `~`, the other with `|`
+and newlines. Both read correctly, because the delimiters come out of the ISA
+segment rather than an assumption.*
+
 **[fmcsa-carrier-check](https://github.com/yurii1exe/fmcsa-carrier-check)**
 · *Next.js 15 · React 19 · TypeScript*
 Server-side API integration with real failure handling — including an upstream
