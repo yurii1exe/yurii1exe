@@ -27,6 +27,17 @@ Reads all four delimiters from the ISA rather than assuming `*` and `~`, handles
 ISA11 correctly across 4010 and 5010, and ships a `dotnet` CLI. `netstandard2.0`
 and `net8.0`, because plenty of the 3PL world is still on .NET Framework.
 
+**[freight-dispatch-board](https://github.com/yurii1exe/freight-dispatch-board)** —
+a 204 load tender comes in, a dispatcher works the load, 214 status messages go
+back out.
+Multi-stop loads report against the stop the truck is actually at — arriving is
+`X3` at a pickup and `X1` at a delivery, departing is `AF` against `CD` — and
+leaving an intermediate drop emits both the completion and the departure,
+because the `D1` is that stop's proof of delivery. The human view and the wire
+format sit side by side on screen.
+
+![dispatch board](https://github.com/yurii1exe/freight-dispatch-board/raw/main/docs/board-demo.gif)
+
 **[fmcsa-carrier-check](https://github.com/yurii1exe/fmcsa-carrier-check)** —
 carrier vetting from a DOT or MC number.
 Operating authority, insurance filings, safety rating and inspection history,
