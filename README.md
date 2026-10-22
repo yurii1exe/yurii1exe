@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img src="assets/hero-light.svg" width="100%" alt="Yurii Shchehliuk, product-minded full-stack engineer, Chicago, open to work. I learn how the business works, then build the software it runs on. Four questions flow together into software the business runs on: who does this job today, what does it cost when it's wrong, what's the smallest version that pays, what will it need in two years.">
+  <img src="assets/hero-light.svg" width="100%" alt="Yurii Shchehliuk, product-minded full-stack engineer, Chicago, open to work. I learn how the business works, then build the software it runs on. Illustration: a living neural network in which how the work gets done, who does it, the cost of being wrong, the data it runs on, where it's going and its constraints all fire into one neuron: software the business runs on.">
 </picture>
 
 ## Yurii Shchehliuk · Senior Full-Stack Engineer
