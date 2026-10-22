@@ -1,97 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="540" viewBox="0 0 1000 540" fill="#1f2328" role="img" aria-label="Yurii Shchehliuk, full-stack engineer: C#/.NET, Angular, Next.js. Chicago, open to work. Illustration: databases, APIs, queues, devices and partner feeds flowing through a .NET core into Angular apps, Next.js sites, dashboards and documents.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" fill="#1f2328" role="img" aria-label="Yurii Shchehliuk, product-minded full-stack engineer, Chicago, open to work. I learn how the business works, then build the software it runs on. Illustration: four questions (who does this job today, what does it cost when it&#x27;s wrong, what&#x27;s the smallest version that pays, what will it need in two years) flowing together into software the business runs on.">
 <style>
 text{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif}
 .mono{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace}
 .muted{fill:#656d76}
-.pulse{animation:pulse 2.4s ease-in-out infinite}
+.pulse{animation:pulse 2.6s ease-in-out infinite}
 @keyframes pulse{50%{opacity:.3}}
-
 @media (prefers-reduced-motion:reduce){*{animation:none!important}}
 </style>
-<defs><pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#1f2328" fill-opacity=".07"/></pattern><radialGradient id="glow" cx="15%" cy="0%" r="75%"><stop offset="0" stop-color="#0969da" stop-opacity=".16"/><stop offset="1" stop-color="#0969da" stop-opacity="0"/></radialGradient><radialGradient id="glow2" cx="95%" cy="100%" r="60%"><stop offset="0" stop-color="#8250df" stop-opacity=".12"/><stop offset="1" stop-color="#8250df" stop-opacity="0"/></radialGradient><linearGradient id="flow" x1="0" x2="1000" y1="0" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0969da"/><stop offset=".5" stop-color="#8250df"/><stop offset="1" stop-color="#1a7f37"/></linearGradient></defs>
-<rect width="1000" height="540" rx="16" fill="#ffffff"/>
-<rect width="1000" height="540" rx="16" fill="url(#dots)"/>
-<rect width="1000" height="540" rx="16" fill="url(#glow)"/>
-<rect width="1000" height="540" rx="16" fill="url(#glow2)"/>
-<rect x=".5" y=".5" width="999" height="539" rx="16" fill="none" stroke="#d0d7de"/>
-<text x="48" y="94" font-size="52" font-weight="800" letter-spacing="-1.5">Yurii Shchehliuk</text>
-<text x="50" y="132" font-size="20" class="muted">Full-stack engineer · C# / .NET · Angular · Next.js</text>
-<text x="952" y="86" text-anchor="end" font-size="16" font-weight="600"><tspan fill="#1a7f37" class="pulse">●</tspan>&#160; open to work</text>
-<text x="952" y="110" text-anchor="end" font-size="15" class="muted">Chicago · remote</text>
-<path d="M214.0,222.0 C292.0,222.0 292.0,335.0 370.0,335.0" transform="translate(0 -5)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.18"/>
-<path d="M214.0,222.0 C292.0,222.0 292.0,335.0 370.0,335.0" transform="translate(0 5)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.18"/>
-<path d="M214.0,222.0 C292.0,222.0 292.0,335.0 370.0,335.0" transform="translate(0 0)" fill="none" stroke="url(#flow)" stroke-width="1.6" stroke-opacity="0.75"/>
-<path id="p0" d="M214.0,222.0 C292.0,222.0 292.0,335.0 370.0,335.0" fill="none" stroke="none"/>
-<path d="M214.0,291.5 C292.0,291.5 292.0,348.0 370.0,348.0" transform="translate(0 -5)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.18"/>
-<path d="M214.0,291.5 C292.0,291.5 292.0,348.0 370.0,348.0" transform="translate(0 5)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.18"/>
-<path d="M214.0,291.5 C292.0,291.5 292.0,348.0 370.0,348.0" transform="translate(0 0)" fill="none" stroke="url(#flow)" stroke-width="1.6" stroke-opacity="0.75"/>
-<path id="p1" d="M214.0,291.5 C292.0,291.5 292.0,348.0 370.0,348.0" fill="none" stroke="none"/>
-<path d="M214.0,361.0 C292.0,361.0 292.0,361.0 370.0,361.0" transform="translate(0 -5)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.18"/>
-<path d="M214.0,361.0 C292.0,361.0 292.0,361.0 370.0,361.0" transform="translate(0 5)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.18"/>
-<path d="M214.0,361.0 C292.0,361.0 292.0,361.0 370.0,361.0" transform="translate(0 0)" fill="none" stroke="url(#flow)" stroke-width="1.6" stroke-opacity="0.75"/>
-<path id="p2" d="M214.0,361.0 C292.0,361.0 292.0,361.0 370.0,361.0" fill="none" stroke="none"/>
-<path d="M214.0,430.5 C292.0,430.5 292.0,374.0 370.0,374.0" transform="translate(0 -5)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.18"/>
-<path d="M214.0,430.5 C292.0,430.5 292.0,374.0 370.0,374.0" transform="translate(0 5)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.18"/>
-<path d="M214.0,430.5 C292.0,430.5 292.0,374.0 370.0,374.0" transform="translate(0 0)" fill="none" stroke="url(#flow)" stroke-width="1.6" stroke-opacity="0.75"/>
-<path id="p3" d="M214.0,430.5 C292.0,430.5 292.0,374.0 370.0,374.0" fill="none" stroke="none"/>
-<path d="M214.0,500.0 C292.0,500.0 292.0,387.0 370.0,387.0" transform="translate(0 -5)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.18"/>
-<path d="M214.0,500.0 C292.0,500.0 292.0,387.0 370.0,387.0" transform="translate(0 5)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.18"/>
-<path d="M214.0,500.0 C292.0,500.0 292.0,387.0 370.0,387.0" transform="translate(0 0)" fill="none" stroke="url(#flow)" stroke-width="1.6" stroke-opacity="0.75"/>
-<path id="p4" d="M214.0,500.0 C292.0,500.0 292.0,387.0 370.0,387.0" fill="none" stroke="none"/>
-<path d="M630.0,337.0 C708.0,337.0 708.0,244.0 786.0,244.0" transform="translate(0 -5)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.18"/>
-<path d="M630.0,337.0 C708.0,337.0 708.0,244.0 786.0,244.0" transform="translate(0 5)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.18"/>
-<path d="M630.0,337.0 C708.0,337.0 708.0,244.0 786.0,244.0" transform="translate(0 0)" fill="none" stroke="url(#flow)" stroke-width="1.6" stroke-opacity="0.75"/>
-<path id="p5" d="M630.0,337.0 C708.0,337.0 708.0,244.0 786.0,244.0" fill="none" stroke="none"/>
-<path d="M630.0,353.0 C708.0,353.0 708.0,322.0 786.0,322.0" transform="translate(0 -5)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.18"/>
-<path d="M630.0,353.0 C708.0,353.0 708.0,322.0 786.0,322.0" transform="translate(0 5)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.18"/>
-<path d="M630.0,353.0 C708.0,353.0 708.0,322.0 786.0,322.0" transform="translate(0 0)" fill="none" stroke="url(#flow)" stroke-width="1.6" stroke-opacity="0.75"/>
-<path id="p6" d="M630.0,353.0 C708.0,353.0 708.0,322.0 786.0,322.0" fill="none" stroke="none"/>
-<path d="M630.0,369.0 C708.0,369.0 708.0,400.0 786.0,400.0" transform="translate(0 -5)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.18"/>
-<path d="M630.0,369.0 C708.0,369.0 708.0,400.0 786.0,400.0" transform="translate(0 5)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.18"/>
-<path d="M630.0,369.0 C708.0,369.0 708.0,400.0 786.0,400.0" transform="translate(0 0)" fill="none" stroke="url(#flow)" stroke-width="1.6" stroke-opacity="0.75"/>
-<path id="p7" d="M630.0,369.0 C708.0,369.0 708.0,400.0 786.0,400.0" fill="none" stroke="none"/>
-<path d="M630.0,385.0 C708.0,385.0 708.0,478.0 786.0,478.0" transform="translate(0 -5)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.18"/>
-<path d="M630.0,385.0 C708.0,385.0 708.0,478.0 786.0,478.0" transform="translate(0 5)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.18"/>
-<path d="M630.0,385.0 C708.0,385.0 708.0,478.0 786.0,478.0" transform="translate(0 0)" fill="none" stroke="url(#flow)" stroke-width="1.6" stroke-opacity="0.75"/>
-<path id="p8" d="M630.0,385.0 C708.0,385.0 708.0,478.0 786.0,478.0" fill="none" stroke="none"/>
-<circle r="3" fill="url(#flow)"><animateMotion dur="3.20s" begin="-0.00s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .6 1"><mpath href="#p0"/></animateMotion></circle>
-<circle r="3" fill="url(#flow)"><animateMotion dur="3.20s" begin="-1.60s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .6 1"><mpath href="#p0"/></animateMotion></circle>
-<circle r="3" fill="url(#flow)"><animateMotion dur="3.57s" begin="-0.53s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .6 1"><mpath href="#p1"/></animateMotion></circle>
-<circle r="3" fill="url(#flow)"><animateMotion dur="3.57s" begin="-2.32s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .6 1"><mpath href="#p1"/></animateMotion></circle>
-<circle r="3" fill="url(#flow)"><animateMotion dur="3.94s" begin="-1.06s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .6 1"><mpath href="#p2"/></animateMotion></circle>
-<circle r="3" fill="url(#flow)"><animateMotion dur="3.94s" begin="-3.03s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .6 1"><mpath href="#p2"/></animateMotion></circle>
-<circle r="3" fill="url(#flow)"><animateMotion dur="4.31s" begin="-1.59s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .6 1"><mpath href="#p3"/></animateMotion></circle>
-<circle r="3" fill="url(#flow)"><animateMotion dur="4.31s" begin="-3.75s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .6 1"><mpath href="#p3"/></animateMotion></circle>
-<circle r="3" fill="url(#flow)"><animateMotion dur="3.28s" begin="-2.12s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .6 1"><mpath href="#p4"/></animateMotion></circle>
-<circle r="3" fill="url(#flow)"><animateMotion dur="3.28s" begin="-3.76s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .6 1"><mpath href="#p4"/></animateMotion></circle>
-<circle r="3" fill="url(#flow)"><animateMotion dur="3.65s" begin="-2.65s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .6 1"><mpath href="#p5"/></animateMotion></circle>
-<circle r="3" fill="url(#flow)"><animateMotion dur="3.65s" begin="-4.48s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .6 1"><mpath href="#p5"/></animateMotion></circle>
-<circle r="3" fill="url(#flow)"><animateMotion dur="4.02s" begin="-3.18s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .6 1"><mpath href="#p6"/></animateMotion></circle>
-<circle r="3" fill="url(#flow)"><animateMotion dur="4.02s" begin="-5.19s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .6 1"><mpath href="#p6"/></animateMotion></circle>
-<circle r="3" fill="url(#flow)"><animateMotion dur="4.39s" begin="-3.71s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .6 1"><mpath href="#p7"/></animateMotion></circle>
-<circle r="3" fill="url(#flow)"><animateMotion dur="4.39s" begin="-5.91s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .6 1"><mpath href="#p7"/></animateMotion></circle>
-<circle r="3" fill="url(#flow)"><animateMotion dur="3.36s" begin="-4.24s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .6 1"><mpath href="#p8"/></animateMotion></circle>
-<circle r="3" fill="url(#flow)"><animateMotion dur="3.36s" begin="-5.92s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .6 1"><mpath href="#p8"/></animateMotion></circle>
-<circle cx="214" cy="222.0" r="4.5" fill="#ffffff" stroke="#0969da" stroke-width="2"/>
-<text x="198" y="227.0" text-anchor="end" font-size="15">SQL databases</text>
-<circle cx="214" cy="291.5" r="4.5" fill="#ffffff" stroke="#0969da" stroke-width="2"/>
-<text x="198" y="296.5" text-anchor="end" font-size="15">REST &amp; GraphQL APIs</text>
-<circle cx="214" cy="361.0" r="4.5" fill="#ffffff" stroke="#0969da" stroke-width="2"/>
-<text x="198" y="366.0" text-anchor="end" font-size="15">message queues</text>
-<circle cx="214" cy="430.5" r="4.5" fill="#ffffff" stroke="#0969da" stroke-width="2"/>
-<text x="198" y="435.5" text-anchor="end" font-size="15">devices &amp; sensors</text>
-<circle cx="214" cy="500.0" r="4.5" fill="#ffffff" stroke="#0969da" stroke-width="2"/>
-<text x="198" y="505.0" text-anchor="end" font-size="15">partner data feeds</text>
-<circle cx="786" cy="244.0" r="4.5" fill="#ffffff" stroke="#1a7f37" stroke-width="2"/>
-<text x="802" y="249.0" font-size="15">Angular apps</text>
-<circle cx="786" cy="322.0" r="4.5" fill="#ffffff" stroke="#1a7f37" stroke-width="2"/>
-<text x="802" y="327.0" font-size="15">Next.js sites</text>
-<circle cx="786" cy="400.0" r="4.5" fill="#ffffff" stroke="#1a7f37" stroke-width="2"/>
-<text x="802" y="405.0" font-size="15">real-time dashboards</text>
-<circle cx="786" cy="478.0" r="4.5" fill="#ffffff" stroke="#1a7f37" stroke-width="2"/>
-<text x="802" y="483.0" font-size="15">reports &amp; documents</text>
-<rect x="370.0" y="313.0" width="260" height="96" rx="14" fill="#f6f8fa" stroke="url(#flow)" stroke-width="1.5"/>
-<text x="500.0" y="355.0" text-anchor="middle" font-size="22" font-weight="800">C# / .NET</text>
-<text x="500.0" y="381.0" text-anchor="middle" font-size="12.5" class="mono muted">ASP.NET Core · EF Core · SignalR</text>
-<text x="500.0" y="299.0" text-anchor="middle" font-size="11" letter-spacing="2" class="mono muted">THE INTEGRATION LAYER</text>
+<defs><pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#1f2328" fill-opacity=".06"/></pattern><radialGradient id="glow" cx="12%" cy="0%" r="75%"><stop offset="0" stop-color="#0969da" stop-opacity=".15"/><stop offset="1" stop-color="#0969da" stop-opacity="0"/></radialGradient><radialGradient id="glow2" cx="92%" cy="100%" r="60%"><stop offset="0" stop-color="#1a7f37" stop-opacity=".12"/><stop offset="1" stop-color="#1a7f37" stop-opacity="0"/></radialGradient><linearGradient id="flow" x1="0" x2="1000" y1="0" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0969da"/><stop offset=".55" stop-color="#8250df"/><stop offset="1" stop-color="#1a7f37"/></linearGradient></defs>
+<rect width="1000" height="520" rx="16" fill="#ffffff"/>
+<rect width="1000" height="520" rx="16" fill="url(#dots)"/>
+<rect width="1000" height="520" rx="16" fill="url(#glow)"/>
+<rect width="1000" height="520" rx="16" fill="url(#glow2)"/>
+<rect x=".5" y=".5" width="999" height="519" rx="16" fill="none" stroke="#d0d7de"/>
+<text x="48" y="84" font-size="44" font-weight="800" letter-spacing="-1.2">Yurii Shchehliuk</text>
+<text x="50" y="116" font-size="17" class="muted">Product-minded full-stack engineer · Chicago</text>
+<text x="952" y="78" text-anchor="end" font-size="16" font-weight="600"><tspan fill="#1a7f37" class="pulse">●</tspan>&#160; open to work</text>
+<text x="952" y="102" text-anchor="end" font-size="15" class="muted">full-time · contract · remote</text>
+<text x="48" y="182" font-size="30" font-weight="700" letter-spacing="-.6">I learn how the business works,</text>
+<text x="48" y="220" font-size="30" font-weight="700" letter-spacing="-.6">then build the software it <tspan fill="url(#flow)">runs on</tspan>.</text>
+<path d="M318.9,276.0 C515.3,346.0 711.7,358.0 880.0,400.0" transform="translate(0 -4)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.16"><animate attributeName="d" values="M318.9,276.0 C515.3,346.0 711.7,358.0 880.0,400.0;M318.9,276.0 C515.3,296.0 711.7,388.0 880.0,400.0;M318.9,276.0 C515.3,346.0 711.7,358.0 880.0,400.0" dur="9.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"/></path>
+<path d="M318.9,276.0 C515.3,346.0 711.7,358.0 880.0,400.0" transform="translate(0 4)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.16"><animate attributeName="d" values="M318.9,276.0 C515.3,346.0 711.7,358.0 880.0,400.0;M318.9,276.0 C515.3,296.0 711.7,388.0 880.0,400.0;M318.9,276.0 C515.3,346.0 711.7,358.0 880.0,400.0" dur="9.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"/></path>
+<path d="M318.9,276.0 C515.3,346.0 711.7,358.0 880.0,400.0" transform="translate(0 0)" fill="none" stroke="url(#flow)" stroke-width="1.6" stroke-opacity="0.7"><animate attributeName="d" values="M318.9,276.0 C515.3,346.0 711.7,358.0 880.0,400.0;M318.9,276.0 C515.3,296.0 711.7,388.0 880.0,400.0;M318.9,276.0 C515.3,346.0 711.7,358.0 880.0,400.0" dur="9.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"/></path>
+<path id="q0" d="M318.9,276.0 C515.3,346.0 711.7,358.0 880.0,400.0" fill="none"><animate attributeName="d" values="M318.9,276.0 C515.3,346.0 711.7,358.0 880.0,400.0;M318.9,276.0 C515.3,296.0 711.7,388.0 880.0,400.0;M318.9,276.0 C515.3,346.0 711.7,358.0 880.0,400.0" dur="9.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"/></path>
+<circle r="3.2" fill="url(#flow)"><animateMotion dur="3.60s" begin="0.00s" repeatCount="indefinite"><mpath href="#q0"/></animateMotion></circle>
+<rect x="48" y="258" width="271" height="36" rx="18" fill="#f6f8fa" stroke="#d0d7de"/><text x="63" y="281" font-size="15">Who does this job today, and how?</text>
+<path d="M396.2,330.0 C565.5,360.0 734.9,382.0 880.0,400.0" transform="translate(0 -4)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.16"><animate attributeName="d" values="M396.2,330.0 C565.5,360.0 734.9,382.0 880.0,400.0;M396.2,330.0 C565.5,400.0 734.9,358.0 880.0,400.0;M396.2,330.0 C565.5,360.0 734.9,382.0 880.0,400.0" dur="10.3s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"/></path>
+<path d="M396.2,330.0 C565.5,360.0 734.9,382.0 880.0,400.0" transform="translate(0 4)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.16"><animate attributeName="d" values="M396.2,330.0 C565.5,360.0 734.9,382.0 880.0,400.0;M396.2,330.0 C565.5,400.0 734.9,358.0 880.0,400.0;M396.2,330.0 C565.5,360.0 734.9,382.0 880.0,400.0" dur="10.3s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"/></path>
+<path d="M396.2,330.0 C565.5,360.0 734.9,382.0 880.0,400.0" transform="translate(0 0)" fill="none" stroke="url(#flow)" stroke-width="1.6" stroke-opacity="0.7"><animate attributeName="d" values="M396.2,330.0 C565.5,360.0 734.9,382.0 880.0,400.0;M396.2,330.0 C565.5,400.0 734.9,358.0 880.0,400.0;M396.2,330.0 C565.5,360.0 734.9,382.0 880.0,400.0" dur="10.3s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"/></path>
+<path id="q1" d="M396.2,330.0 C565.5,360.0 734.9,382.0 880.0,400.0" fill="none"><animate attributeName="d" values="M396.2,330.0 C565.5,360.0 734.9,382.0 880.0,400.0;M396.2,330.0 C565.5,400.0 734.9,358.0 880.0,400.0;M396.2,330.0 C565.5,360.0 734.9,382.0 880.0,400.0" dur="10.3s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"/></path>
+<circle r="3.2" fill="url(#flow)"><animateMotion dur="4.05s" begin="-0.90s" repeatCount="indefinite"><mpath href="#q1"/></animateMotion></circle>
+<rect x="118" y="312" width="278" height="36" rx="18" fill="#f6f8fa" stroke="#d0d7de"/><text x="133" y="335" font-size="15">What does it cost when it’s wrong?</text>
+<path d="M377.4,384.0 C553.3,354.0 729.2,418.0 880.0,400.0" transform="translate(0 -4)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.16"><animate attributeName="d" values="M377.4,384.0 C553.3,354.0 729.2,418.0 880.0,400.0;M377.4,384.0 C553.3,314.0 729.2,442.0 880.0,400.0;M377.4,384.0 C553.3,354.0 729.2,418.0 880.0,400.0" dur="11.6s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"/></path>
+<path d="M377.4,384.0 C553.3,354.0 729.2,418.0 880.0,400.0" transform="translate(0 4)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.16"><animate attributeName="d" values="M377.4,384.0 C553.3,354.0 729.2,418.0 880.0,400.0;M377.4,384.0 C553.3,314.0 729.2,442.0 880.0,400.0;M377.4,384.0 C553.3,354.0 729.2,418.0 880.0,400.0" dur="11.6s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"/></path>
+<path d="M377.4,384.0 C553.3,354.0 729.2,418.0 880.0,400.0" transform="translate(0 0)" fill="none" stroke="url(#flow)" stroke-width="1.6" stroke-opacity="0.7"><animate attributeName="d" values="M377.4,384.0 C553.3,354.0 729.2,418.0 880.0,400.0;M377.4,384.0 C553.3,314.0 729.2,442.0 880.0,400.0;M377.4,384.0 C553.3,354.0 729.2,418.0 880.0,400.0" dur="11.6s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"/></path>
+<path id="q2" d="M377.4,384.0 C553.3,354.0 729.2,418.0 880.0,400.0" fill="none"><animate attributeName="d" values="M377.4,384.0 C553.3,354.0 729.2,418.0 880.0,400.0;M377.4,384.0 C553.3,314.0 729.2,442.0 880.0,400.0;M377.4,384.0 C553.3,354.0 729.2,418.0 880.0,400.0" dur="11.6s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"/></path>
+<circle r="3.2" fill="url(#flow)"><animateMotion dur="4.50s" begin="-1.80s" repeatCount="indefinite"><mpath href="#q2"/></animateMotion></circle>
+<rect x="70" y="366" width="307" height="36" rx="18" fill="#f6f8fa" stroke="#d0d7de"/><text x="85" y="389" font-size="15">What’s the smallest version that pays?</text>
+<path d="M406.3,438.0 C572.1,358.0 737.9,448.0 880.0,400.0" transform="translate(0 -4)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.16"><animate attributeName="d" values="M406.3,438.0 C572.1,358.0 737.9,448.0 880.0,400.0;M406.3,438.0 C572.1,408.0 737.9,418.0 880.0,400.0;M406.3,438.0 C572.1,358.0 737.9,448.0 880.0,400.0" dur="12.9s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"/></path>
+<path d="M406.3,438.0 C572.1,358.0 737.9,448.0 880.0,400.0" transform="translate(0 4)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.16"><animate attributeName="d" values="M406.3,438.0 C572.1,358.0 737.9,448.0 880.0,400.0;M406.3,438.0 C572.1,408.0 737.9,418.0 880.0,400.0;M406.3,438.0 C572.1,358.0 737.9,448.0 880.0,400.0" dur="12.9s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"/></path>
+<path d="M406.3,438.0 C572.1,358.0 737.9,448.0 880.0,400.0" transform="translate(0 0)" fill="none" stroke="url(#flow)" stroke-width="1.6" stroke-opacity="0.7"><animate attributeName="d" values="M406.3,438.0 C572.1,358.0 737.9,448.0 880.0,400.0;M406.3,438.0 C572.1,408.0 737.9,418.0 880.0,400.0;M406.3,438.0 C572.1,358.0 737.9,448.0 880.0,400.0" dur="12.9s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"/></path>
+<path id="q3" d="M406.3,438.0 C572.1,358.0 737.9,448.0 880.0,400.0" fill="none"><animate attributeName="d" values="M406.3,438.0 C572.1,358.0 737.9,448.0 880.0,400.0;M406.3,438.0 C572.1,408.0 737.9,418.0 880.0,400.0;M406.3,438.0 C572.1,358.0 737.9,448.0 880.0,400.0" dur="12.9s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"/></path>
+<circle r="3.2" fill="url(#flow)"><animateMotion dur="4.95s" begin="-2.70s" repeatCount="indefinite"><mpath href="#q3"/></animateMotion></circle>
+<rect x="150" y="420" width="256" height="36" rx="18" fill="#f6f8fa" stroke="#d0d7de"/><text x="165" y="443" font-size="15">What will it need in two years?</text>
+<circle cx="880" cy="400" r="18" fill="#1a7f37" fill-opacity=".14" class="pulse"/>
+<circle cx="880" cy="400" r="7" fill="#1a7f37"/>
+<text x="880" y="444" text-anchor="middle" font-size="15" font-weight="600">software the</text>
+<text x="880" y="464" text-anchor="middle" font-size="15" font-weight="600">business runs on</text>
 </svg>

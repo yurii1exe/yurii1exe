@@ -1,29 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="150" viewBox="0 0 1000 150" fill="#e6edf3" role="img" aria-label="02 freight-dispatch-board: A real-time workflow where every document is checked.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="232" viewBox="0 0 1000 232" fill="#e6edf3" role="img" aria-label="02 freight-dispatch-board. Problem: Every move a dispatcher makes owes the customer an update and billing a document. Decision: Make the paperwork a side effect of the work, and check every document automatically. Outcome: No forgotten updates, no invoices that bounce, and one screen for the person doing the job.">
 <style>
 text{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif}
 .mono{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace}
-.muted{fill:#7d8590}
-.pulse{animation:pulse 2.4s ease-in-out infinite}
+.muted{fill:#8b949e}
+.pulse{animation:pulse 2.6s ease-in-out infinite}
 @keyframes pulse{50%{opacity:.3}}
-
 @media (prefers-reduced-motion:reduce){*{animation:none!important}}
 </style>
-<defs><pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#e6edf3" fill-opacity=".07"/></pattern><radialGradient id="glow" cx="15%" cy="0%" r="75%"><stop offset="0" stop-color="#58a6ff" stop-opacity=".16"/><stop offset="1" stop-color="#58a6ff" stop-opacity="0"/></radialGradient><radialGradient id="glow2" cx="95%" cy="100%" r="60%"><stop offset="0" stop-color="#bc8cff" stop-opacity=".12"/><stop offset="1" stop-color="#bc8cff" stop-opacity="0"/></radialGradient><linearGradient id="flow" x1="0" x2="1000" y1="0" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#58a6ff"/><stop offset=".5" stop-color="#bc8cff"/><stop offset="1" stop-color="#3fb950"/></linearGradient></defs>
-<rect width="1000" height="150" rx="16" fill="#0d1117"/>
-<rect width="1000" height="150" rx="16" fill="url(#dots)"/>
-<rect width="1000" height="150" rx="16" fill="url(#glow)"/>
-<rect width="1000" height="150" rx="16" fill="url(#glow2)"/>
-<rect x=".5" y=".5" width="999" height="149" rx="16" fill="none" stroke="#30363d"/>
-<rect x="16" y="28" width="3" height="94" rx="1.5" fill="url(#flow)"/>
-<text x="36" y="76" font-size="42" font-weight="800" fill="none" stroke="url(#flow)" stroke-width="1.3">02</text>
-<text x="106" y="50" font-size="12.5" class="mono muted">github.com/yurii1exe/<tspan fill="#58a6ff">freight-dispatch-board</tspan></text>
-<text x="105" y="83" font-size="27" font-weight="750" class="mono">freight-dispatch-board</text>
-<text x="106" y="108" font-size="16" class="muted">A real-time workflow where every document is checked.</text>
-<rect x="106" y="120" width="57.6" height="20" rx="10" fill="#161b22" stroke="#30363d"/><text x="134.8" y="134" text-anchor="middle" font-size="11" class="mono muted" textLength="39.6" lengthAdjust="spacingAndGlyphs">.NET 8</text>
-<rect x="171.6" y="120" width="90.6" height="20" rx="10" fill="#161b22" stroke="#30363d"/><text x="216.9" y="134" text-anchor="middle" font-size="11" class="mono muted" textLength="72.6" lengthAdjust="spacingAndGlyphs">minimal API</text>
-<rect x="270.2" y="120" width="64.2" height="20" rx="10" fill="#161b22" stroke="#30363d"/><text x="302.3" y="134" text-anchor="middle" font-size="11" class="mono muted" textLength="46.2" lengthAdjust="spacingAndGlyphs">Angular</text>
-<rect x="342.4" y="120" width="51.0" height="20" rx="10" fill="#161b22" stroke="#30363d"/><text x="367.9" y="134" text-anchor="middle" font-size="11" class="mono muted" textLength="33.0" lengthAdjust="spacingAndGlyphs">xUnit</text>
-<rect x="401.4" y="120" width="31.2" height="20" rx="10" fill="#161b22" stroke="#30363d"/><text x="417.0" y="134" text-anchor="middle" font-size="11" class="mono muted" textLength="13.2" lengthAdjust="spacingAndGlyphs">CI</text>
-<text x="960" y="50" text-anchor="end" font-size="13" font-weight="600" fill="#bc8cff">end-to-end lifecycle</text>
-<text x="960" y="84" text-anchor="end" font-size="14" class="mono"><tspan fill="#58a6ff">tender</tspan><tspan class="muted"> → </tspan><tspan fill="#bc8cff">dispatch</tspan><tspan class="muted"> → </tspan><tspan fill="#bc8cff">status × stop</tspan><tspan class="muted"> → </tspan><tspan fill="#3fb950">invoice</tspan></text>
+<defs><pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#e6edf3" fill-opacity=".06"/></pattern><radialGradient id="glow" cx="12%" cy="0%" r="75%"><stop offset="0" stop-color="#58a6ff" stop-opacity=".15"/><stop offset="1" stop-color="#58a6ff" stop-opacity="0"/></radialGradient><radialGradient id="glow2" cx="92%" cy="100%" r="60%"><stop offset="0" stop-color="#3fb950" stop-opacity=".12"/><stop offset="1" stop-color="#3fb950" stop-opacity="0"/></radialGradient><linearGradient id="flow" x1="0" x2="1000" y1="0" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#58a6ff"/><stop offset=".55" stop-color="#bc8cff"/><stop offset="1" stop-color="#3fb950"/></linearGradient></defs>
+<rect width="1000" height="232" rx="16" fill="#0d1117"/>
+<rect width="1000" height="232" rx="16" fill="url(#dots)"/>
+<rect width="1000" height="232" rx="16" fill="url(#glow)"/>
+<rect width="1000" height="232" rx="16" fill="url(#glow2)"/>
+<rect x=".5" y=".5" width="999" height="231" rx="16" fill="none" stroke="#30363d"/>
+<rect x="16" y="28" width="3" height="176" rx="1.5" fill="url(#flow)"/>
+<text x="36" y="74" font-size="42" font-weight="800" fill="none" stroke="url(#flow)" stroke-width="1.3">02</text>
+<text x="106" y="44" font-size="12.5" class="mono muted">github.com/yurii1exe/<tspan fill="#58a6ff">freight-dispatch-board</tspan></text>
+<text x="105" y="76" font-size="26" font-weight="750" class="mono">freight-dispatch-board</text>
+<text x="960" y="44" text-anchor="end" font-size="13" font-weight="600" fill="#bc8cff">end-to-end workflow</text>
+<line x1="106" y1="104" x2="364" y2="104" stroke="#58a6ff" stroke-opacity=".55" stroke-width="2"/>
+<text x="106" y="128" font-size="11.5" letter-spacing="1.8" class="mono" fill="#58a6ff" font-weight="700">PROBLEM</text>
+<text x="106" y="154" font-size="15">Every move a dispatcher makes owes</text>
+<text x="106" y="175" font-size="15">the customer an update and billing</text>
+<text x="106" y="196" font-size="15">a document.</text>
+<line x1="398" y1="104" x2="656" y2="104" stroke="#bc8cff" stroke-opacity=".55" stroke-width="2"/>
+<text x="398" y="128" font-size="11.5" letter-spacing="1.8" class="mono" fill="#bc8cff" font-weight="700">DECISION</text>
+<text x="398" y="154" font-size="15">Make the paperwork a side effect</text>
+<text x="398" y="175" font-size="15">of the work, and check every</text>
+<text x="398" y="196" font-size="15">document automatically.</text>
+<line x1="690" y1="104" x2="948" y2="104" stroke="#3fb950" stroke-opacity=".55" stroke-width="2"/>
+<text x="690" y="128" font-size="11.5" letter-spacing="1.8" class="mono" fill="#3fb950" font-weight="700">OUTCOME</text>
+<text x="690" y="154" font-size="15">No forgotten updates, no invoices</text>
+<text x="690" y="175" font-size="15">that bounce, and one screen for</text>
+<text x="690" y="196" font-size="15">the person doing the job.</text>
 </svg>
