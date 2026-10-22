@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img src="assets/hero-light.svg" width="100%" alt="Yurii Shchehliuk, product-minded full-stack engineer, Chicago, open to work. I learn how the business works, then build the software it runs on. Illustration: a living neural network in which how the work gets done, who does it, the cost of being wrong, the data it runs on, where it's going and its constraints all fire into one neuron: software the business runs on.">
+  <img src="assets/hero-light.svg" width="100%" alt="Yurii Shchehliuk, product-minded full-stack engineer, Chicago, open to work. I learn how the business works, then build the software it runs on. Illustration in an amber-haze cinematic style: a neural network glows like city lights over a brutalist skyline. How the work gets done, who does it, the cost of being wrong, the data it runs on and where it is going all fire into one core: software the business runs on. A lone figure stands below, facing it.">
 </picture>
 
 ## Yurii Shchehliuk · Senior Full-Stack Engineer
