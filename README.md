@@ -1,37 +1,25 @@
-<div align="center">
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-  <img src="assets/hero-light.svg" width="100%" alt="Yurii Shchehliuk, full-stack engineer, C#/.NET, Angular, Next.js, Chicago, open to work. Drawn as an ANSI X12 214 shipment-status interchange, wire format on the left and a human reading on the right, with the ISA delimiters annotated by offset.">
+  <img src="assets/hero-light.svg" width="100%" alt="Yurii Shchehliuk, full-stack engineer: C#/.NET, Angular, Next.js. Chicago, open to work. Drawn as an ANSI X12 214 shipment-status interchange, wire format beside a human reading, with the ISA delimiters annotated by offset.">
 </picture>
 
-<sub>The header above is a real X12 interchange that passes validation.
-<a href="assets/yurii1exe.edi">Get the file</a> and paste it into the
-<a href="https://yurii1exe.github.io/edi-x12-toolkit/">playground</a>.</sub>
+<p align="center"><sub>That header is a real X12 interchange and it validates. <a href="assets/yurii1exe.edi">Get the file</a> and paste it into the <a href="https://yurii1exe.github.io/edi-x12-toolkit/">playground</a>.</sub></p>
 
-<br><br>
+## Yurii Shchehliuk · Senior Full-Stack Engineer
 
-**Senior Full-Stack Engineer · C# / .NET · Angular · Next.js · Azure · Chicago, IL**
-
-[LinkedIn](https://www.linkedin.com/in/yurii1exe/) · [yshchehliuk@gmail.com](mailto:yshchehliuk@gmail.com) · [disit.tech](https://disit.tech)
-
-</div>
-
-<br>
+**C# / .NET · Angular · Next.js · Azure** · Chicago, IL · [LinkedIn](https://www.linkedin.com/in/yurii1exe/) · [yshchehliuk@gmail.com](mailto:yshchehliuk@gmail.com)
 
 I build the integration layer: the code that sits between systems that were never
 designed to talk to each other, and has to be right every time. Mostly freight
-EDI, industrial OPC UA, and the .NET and Angular apps around them.
-
-Everything below is written from public specs. It has tests and CI, and the first
-project runs in your browser.
+EDI, industrial OPC UA, and the .NET and Angular apps around them. Everything
+below is written from public specs, with tests and CI.
 
 <br>
 
-### `01` &nbsp;[edi-x12-toolkit](https://github.com/yurii1exe/edi-x12-toolkit) &nbsp;·&nbsp; [▶ try it live](https://yurii1exe.github.io/edi-x12-toolkit/)
-
-<sub>C# · netstandard2.0 + net8.0 · WebAssembly · zero dependencies · MIT</sub>
+<a href="https://github.com/yurii1exe/edi-x12-toolkit"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/card-edi-x12-toolkit-dark.svg">
+  <img src="assets/card-edi-x12-toolkit-light.svg" width="100%" alt="01 edi-x12-toolkit: reads the delimiters instead of guessing them. C#, netstandard2.0, net8.0, WebAssembly, zero dependencies, MIT.">
+</picture></a>
 
 A .NET parser and validator for ANSI X12, the EDI format US freight runs on. Most
 X12 code hardcodes `*` and `~` and breaks on the first partner that uses pipes.
@@ -39,15 +27,16 @@ This one reads the delimiters from the ISA header the way the standard intends,
 and reports envelope errors such as a wrong SE01 segment count (a common reason
 a partner rejects a file) as named diagnostics. It ships as a library, a
 `dotnet` CLI tool, and a playground that runs the same parser compiled to
-WebAssembly.
+WebAssembly. **[▶ Try it live](https://yurii1exe.github.io/edi-x12-toolkit/)**
 
 <a href="https://yurii1exe.github.io/edi-x12-toolkit/"><img src="https://raw.githubusercontent.com/yurii1exe/edi-x12-toolkit/main/docs/playground-demo.gif" alt="The X12 playground reading the delimiters from two versions of the same document and flagging an SE01 segment-count error" width="100%"></a>
 
-<br>
+<br><br>
 
-### `02` &nbsp;[freight-dispatch-board](https://github.com/yurii1exe/freight-dispatch-board)
-
-<sub>.NET 8 minimal API · Angular · xUnit · CI</sub>
+<a href="https://github.com/yurii1exe/freight-dispatch-board"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/card-freight-dispatch-board-dark.svg">
+  <img src="assets/card-freight-dispatch-board-light.svg" width="100%" alt="02 freight-dispatch-board: load tender in, status out, invoice to close. .NET 8 minimal API, Angular, xUnit, CI.">
+</picture></a>
 
 The loop every freight brokerage runs, built end to end: a load tender (EDI 204)
 comes in and gets acknowledged, a dispatcher works the load stop by stop, every
@@ -57,11 +46,12 @@ file that a trading partner would reject.
 
 <img src="https://raw.githubusercontent.com/yurii1exe/freight-dispatch-board/main/docs/board-demo.gif" alt="Dispatch board: a load tender arrives, the load moves across a multi-stop route, and each status change generates its EDI 214" width="100%">
 
-<br>
+<br><br>
 
-### `03` &nbsp;[opc-ua-monitor](https://github.com/yurii1exe/opc-ua-monitor)
-
-<sub>.NET 8 · SignalR · Angular · OPC UA</sub>
+<a href="https://github.com/yurii1exe/opc-ua-monitor"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/card-opc-ua-monitor-dark.svg">
+  <img src="assets/card-opc-ua-monitor-light.svg" width="100%" alt="03 opc-ua-monitor: live plant data, and honest when it goes stale. .NET 8, OPC UA, SignalR, Angular.">
+</picture></a>
 
 Live monitoring for industrial equipment. A .NET service subscribes to an OPC UA
 server and streams node values to a live Angular dashboard. When a connection
@@ -70,17 +60,15 @@ old data as current.
 
 <img src="https://raw.githubusercontent.com/yurii1exe/opc-ua-monitor/main/docs/live.gif" alt="OPC UA dashboard plotting live node values, then holding and labelling the last values as stale when the connection drops" width="100%">
 
-<br>
+<br><br>
 
-### Also
+#### Also
 
 **[fmcsa-carrier-check](https://github.com/yurii1exe/fmcsa-carrier-check)**: Next.js 15 / React 19 carrier vetting on the public FMCSA API, covering authority, insurance, safety rating and inspections. 188 tests.
 
 **[ECommerce-Restaurant](https://github.com/yurii1exe/ECommerce-Restaurant)**: .NET microservices with MassTransit/RabbitMQ, Redis, EF Core, JWT and Angular, all running under one Docker Compose file.
 
-<br>
-
-### Stack
+#### Stack
 
 | | |
 |---|---|
@@ -92,4 +80,9 @@ old data as current.
 
 <br>
 
-<div align="center"><sub>Open to senior full-time or contract roles, remote or in Chicago. Corp-to-corp through DIS IT LLC.</sub></div>
+<a href="mailto:yshchehliuk@gmail.com"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/reply-dark.svg">
+  <img src="assets/reply-light.svg" width="100%" alt="Your 997 goes here: a functional acknowledgment accepting the 214 above. Contact: yshchehliuk@gmail.com, linkedin.com/in/yurii1exe, disit.tech. Open to full-time, contract and corp-to-corp.">
+</picture></a>
+
+<p align="center"><sub>Open to senior full-time or contract roles, remote or in Chicago. Corp-to-corp through DIS IT LLC. The acknowledgment is a <a href="assets/reply.997.edi">real 997</a> too.</sub></p>

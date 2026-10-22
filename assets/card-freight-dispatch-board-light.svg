@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="150" viewBox="0 0 1000 150" role="img" aria-label="02 freight-dispatch-board: Load tender in, status out, invoice to close.">
+<style>
+text{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;fill:#1f2328}
+.sans{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif}
+.seg{fill:#9a6700;font-weight:700} .el{fill:#0969da} .term{fill:#cf222e} .comp{fill:#8250df}
+.muted{fill:#656d76} .ok{fill:#1a7f37}
+.key{font-weight:700;animation:glow 2.4s ease-in-out infinite}
+.dot{animation:glow 2.4s ease-in-out infinite}
+.cur{animation:blink 1.1s steps(1) infinite}
+@keyframes glow{50%{opacity:.3}}
+@keyframes blink{50%{opacity:0}}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<defs><pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#1f2328" fill-opacity=".07"/></pattern><radialGradient id="glow" cx="18%" cy="0%" r="70%"><stop offset="0" stop-color="#0969da" stop-opacity=".16"/><stop offset="1" stop-color="#0969da" stop-opacity="0"/></radialGradient></defs>
+<rect width="1000" height="150" rx="14" fill="#ffffff"/>
+<rect width="1000" height="150" rx="14" fill="url(#dots)"/>
+<rect width="1000" height="150" rx="14" fill="url(#glow)"/>
+<rect x=".5" y=".5" width="999" height="149" rx="14" fill="none" stroke="#d0d7de"/>
+<rect x="16" y="28" width="3" height="94" rx="1.5" fill="#9a6700"/>
+<text x="34" y="74" font-size="40" font-weight="800" fill="none" stroke="#9a6700" stroke-width="1.2">02</text>
+<text x="104" y="50" font-size="12.5" class="muted">github.com/yurii1exe/<tspan class="el">freight-dispatch-board</tspan></text>
+<text x="104" y="82" font-size="27" font-weight="700">freight-dispatch-board</text>
+<text x="105" y="108" class="sans muted" font-size="16">Load tender in, status out, invoice to close.</text>
+<rect x="104" y="120" width="57.6" height="20" rx="10" fill="#f6f8fa" stroke="#d0d7de"/><text x="132.8" y="134" text-anchor="middle" font-size="11" class="muted" textLength="39.6" lengthAdjust="spacingAndGlyphs">.NET 8</text>
+<rect x="169.6" y="120" width="90.6" height="20" rx="10" fill="#f6f8fa" stroke="#d0d7de"/><text x="214.9" y="134" text-anchor="middle" font-size="11" class="muted" textLength="72.6" lengthAdjust="spacingAndGlyphs">minimal API</text>
+<rect x="268.2" y="120" width="64.2" height="20" rx="10" fill="#f6f8fa" stroke="#d0d7de"/><text x="300.3" y="134" text-anchor="middle" font-size="11" class="muted" textLength="46.2" lengthAdjust="spacingAndGlyphs">Angular</text>
+<rect x="340.4" y="120" width="51.0" height="20" rx="10" fill="#f6f8fa" stroke="#d0d7de"/><text x="365.9" y="134" text-anchor="middle" font-size="11" class="muted" textLength="33.0" lengthAdjust="spacingAndGlyphs">xUnit</text>
+<rect x="399.4" y="120" width="31.2" height="20" rx="10" fill="#f6f8fa" stroke="#d0d7de"/><text x="415.0" y="134" text-anchor="middle" font-size="11" class="muted" textLength="13.2" lengthAdjust="spacingAndGlyphs">CI</text>
+<text x="960" y="50" text-anchor="end" font-size="12.5" class="comp" font-weight="600">every document re-parsed</text>
+<text x="960" y="84" text-anchor="end" font-size="14"><tspan class="seg">204</tspan><tspan class="term"> → </tspan><tspan class="el">990</tspan><tspan class="term"> → </tspan><tspan class="el">214 × stop</tspan><tspan class="term"> → </tspan><tspan class="seg">210</tspan></text>
+</svg>
