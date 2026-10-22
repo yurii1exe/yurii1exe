@@ -3,26 +3,15 @@
 **Senior Full-Stack Engineer · C# / .NET · Angular · Next.js · Azure — Chicago, IL**
 
 I build the integration layer: the code that sits between systems that were never
-designed to talk to each other, and has to be right every time. 7 years in
-production across **freight & logistics, healthcare, and manufacturing**.
+designed to talk to each other, and has to be right every time. Mostly freight
+EDI, industrial OPC UA, and the .NET and Angular apps around them.
+
+Everything below is written from public specs. It has tests and CI, and the top
+project runs in your browser.
 
 **Open to** senior full-time or contract roles — .NET, Angular, Next.js. Remote or Chicago.
 Corp-to-corp via **DIS IT LLC**.
 📧 yshchehliuk@gmail.com · 💼 [LinkedIn](https://www.linkedin.com/in/yurii1exe/) · 🌐 [disit.tech](https://disit.tech)
-
----
-
-### Impact in production
-
-| | What I built | What changed |
-|---|---|---|
-| **New Wave International Cargo**<br>Freight · 2024–now | .NET + Next.js microservices platform; EDI ANSI X12 (204/210/214/997) integrations with CargoWise and TMW; carrier-compliance data from Highway and RMIS in the dispatch workflow | **500+ freight transactions/day.** Monolithic integration layer split into independently deployable services. Feature delivery **~25% faster** after a shared component library |
-| **QIAGEN**<br>Manufacturing · 2023–24 | .NET 6 service on OPC UA for real-time production-line monitoring, on Docker, Azure Event Hub and IoT Hub (ISO 9001) | Manual line-side meter readings **replaced by live dashboards** in the production workshops |
-| **Hyland**<br>Healthcare · 2022–23 | Rebuilt the PACSGear web UI; redesigned its DICOM integration and SQL data access (HL7, HIPAA) | Diagnostic report generation **~10% faster** |
-| **Consafe Logistics**<br>Logistics · 2019–22 | Migrated Astro WMS and Yard Management from CentOS to Azure; rewrote the inter-database sync to batch and stream | **~20% faster** response under peak load; critical data processing **~30% faster** |
-
-That code belongs to the companies I built it for. What's below is mine, written
-from public specs, so you can read it.
 
 ---
 
@@ -55,8 +44,7 @@ file that a trading partner would reject.
 #### [opc-ua-monitor](https://github.com/yurii1exe/opc-ua-monitor)
 *.NET 8 · SignalR · Angular · OPC UA*
 
-A clean-room rebuild of the kind of system I shipped at QIAGEN. A .NET service
-subscribes to an OPC UA server and streams node values to a live Angular
+Live monitoring for industrial equipment. A .NET service subscribes to an OPC UA server and streams node values to a live Angular
 dashboard. When a connection drops, it keeps showing the last values but marks
 them as stale, so nobody reads old data as current.
 
