@@ -1,18 +1,17 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img src="assets/hero-light.svg" width="100%" alt="Yurii Shchehliuk, full-stack engineer: C#/.NET, Angular, Next.js. Chicago, open to work. Drawn as an ANSI X12 214 shipment-status interchange, wire format beside a human reading, with the ISA delimiters annotated by offset.">
+  <img src="assets/hero-light.svg" width="100%" alt="Yurii Shchehliuk, full-stack engineer: C#/.NET, Angular, Next.js. Chicago, open to work. Illustration: databases, APIs, message queues, devices and partner feeds flowing through a C#/.NET integration layer into Angular apps, Next.js sites, real-time dashboards and documents.">
 </picture>
-
-<p align="center"><sub>That header is a real X12 interchange and it validates. <a href="assets/yurii1exe.edi">Get the file</a> and paste it into the <a href="https://yurii1exe.github.io/edi-x12-toolkit/">playground</a>.</sub></p>
 
 ## Yurii Shchehliuk · Senior Full-Stack Engineer
 
 **C# / .NET · Angular · Next.js · Azure** · Chicago, IL · [LinkedIn](https://www.linkedin.com/in/yurii1exe/) · [yshchehliuk@gmail.com](mailto:yshchehliuk@gmail.com)
 
 I build the integration layer: the code that sits between systems that were never
-designed to talk to each other, and has to be right every time. Mostly freight
-EDI, industrial OPC UA, and the .NET and Angular apps around them. Everything
-below is written from public specs, with tests and CI.
+designed to talk to each other, and has to be right every time: databases, APIs,
+queues, devices and partner feeds on one side; the Angular and Next.js apps
+people actually use on the other. Logistics, healthcare, manufacturing and
+e-commerce so far. Everything below has tests and CI.
 
 <br>
 
@@ -81,8 +80,6 @@ old data as current.
 <br>
 
 <a href="mailto:yshchehliuk@gmail.com"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/reply-dark.svg">
-  <img src="assets/reply-light.svg" width="100%" alt="Your 997 goes here: a functional acknowledgment accepting the 214 above. Contact: yshchehliuk@gmail.com, linkedin.com/in/yurii1exe, disit.tech. Open to full-time, contract and corp-to-corp.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/contact-dark.svg">
+  <img src="assets/contact-light.svg" width="100%" alt="Have two systems that should talk? Contact: yshchehliuk@gmail.com, linkedin.com/in/yurii1exe, disit.tech. Open to senior full-time, contract and corp-to-corp work, remote or Chicago.">
 </picture></a>
-
-<p align="center"><sub>Open to senior full-time or contract roles, remote or in Chicago. Corp-to-corp through DIS IT LLC. The acknowledgment is a <a href="assets/reply.997.edi">real 997</a> too.</sub></p>

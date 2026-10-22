@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="210" viewBox="0 0 1000 210" fill="#e6edf3" role="img" aria-label="Contact: yshchehliuk@gmail.com, linkedin.com/in/yurii1exe, disit.tech. Open to senior full-time, contract and corp-to-corp work.">
+<style>
+text{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif}
+.mono{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace}
+.muted{fill:#7d8590}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.3}}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<defs><pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#e6edf3" fill-opacity=".07"/></pattern><radialGradient id="glow" cx="15%" cy="0%" r="75%"><stop offset="0" stop-color="#58a6ff" stop-opacity=".16"/><stop offset="1" stop-color="#58a6ff" stop-opacity="0"/></radialGradient><radialGradient id="glow2" cx="95%" cy="100%" r="60%"><stop offset="0" stop-color="#bc8cff" stop-opacity=".12"/><stop offset="1" stop-color="#bc8cff" stop-opacity="0"/></radialGradient><linearGradient id="flow" x1="0" x2="1000" y1="0" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#58a6ff"/><stop offset=".5" stop-color="#bc8cff"/><stop offset="1" stop-color="#3fb950"/></linearGradient></defs>
+<rect width="1000" height="210" rx="16" fill="#0d1117"/>
+<rect width="1000" height="210" rx="16" fill="url(#dots)"/>
+<rect width="1000" height="210" rx="16" fill="url(#glow)"/>
+<rect width="1000" height="210" rx="16" fill="url(#glow2)"/>
+<rect x=".5" y=".5" width="999" height="209" rx="16" fill="none" stroke="#30363d"/>
+<text x="48" y="74" font-size="30" font-weight="800" letter-spacing="-.5">Have two systems that should talk?</text>
+<text x="49" y="104" font-size="16" class="muted">Senior full-time or contract · remote or Chicago · corp-to-corp via DIS IT LLC</text>
+<rect x="48" y="132" width="259" height="42" rx="21" fill="#161b22" stroke="#30363d"/><text x="68" y="158" font-size="13" class="mono muted">email</text><text x="111" y="158" font-size="15" font-weight="600" class="mono">yshchehliuk@gmail.com</text>
+<rect x="319.4" y="132" width="205" height="42" rx="21" fill="#161b22" stroke="#30363d"/><text x="339.4" y="158" font-size="13" class="mono muted">linkedin</text><text x="403.4" y="158" font-size="15" font-weight="600" class="mono">in/yurii1exe</text>
+<rect x="536.2" y="132" width="153" height="42" rx="21" fill="#161b22" stroke="#30363d"/><text x="556.2" y="158" font-size="13" class="mono muted">web</text><text x="585.2" y="158" font-size="15" font-weight="600" class="mono">disit.tech</text>
+<path d="M750.0,70.0 C845.0,70.0 845.0,120.0 940.0,120.0" fill="none" stroke="url(#flow)" stroke-opacity=".45" stroke-width="1.2"/>
+<path d="M750.0,88.0 C845.0,88.0 845.0,120.0 940.0,120.0" fill="none" stroke="url(#flow)" stroke-opacity=".45" stroke-width="1.2"/>
+<path d="M750.0,106.0 C845.0,106.0 845.0,120.0 940.0,120.0" fill="none" stroke="url(#flow)" stroke-opacity=".45" stroke-width="1.2"/>
+<path d="M750.0,124.0 C845.0,124.0 845.0,120.0 940.0,120.0" fill="none" stroke="url(#flow)" stroke-opacity=".45" stroke-width="1.2"/>
+<path d="M750.0,142.0 C845.0,142.0 845.0,120.0 940.0,120.0" fill="none" stroke="url(#flow)" stroke-opacity=".45" stroke-width="1.2"/>
+<circle cx="940" cy="120" r="6" fill="#3fb950" class="pulse"/>
+</svg>

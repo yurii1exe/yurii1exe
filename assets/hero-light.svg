@@ -1,62 +1,97 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="720" viewBox="0 0 1000 720" role="img" aria-label="Yurii Shchehliuk, full-stack engineer: C#/.NET, Angular, Next.js. Chicago, open to work. Drawn as a valid ANSI X12 214 interchange, wire format beside a human reading.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="540" viewBox="0 0 1000 540" fill="#1f2328" role="img" aria-label="Yurii Shchehliuk, full-stack engineer: C#/.NET, Angular, Next.js. Chicago, open to work. Illustration: databases, APIs, queues, devices and partner feeds flowing through a .NET core into Angular apps, Next.js sites, dashboards and documents.">
 <style>
-text{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;fill:#1f2328}
-.sans{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif}
-.seg{fill:#9a6700;font-weight:700} .el{fill:#0969da} .term{fill:#cf222e} .comp{fill:#8250df}
-.muted{fill:#656d76} .ok{fill:#1a7f37}
-.key{font-weight:700;animation:glow 2.4s ease-in-out infinite}
-.dot{animation:glow 2.4s ease-in-out infinite}
-.cur{animation:blink 1.1s steps(1) infinite}
-@keyframes glow{50%{opacity:.3}}
-@keyframes blink{50%{opacity:0}}
-.scan{animation:scan 5.5s cubic-bezier(.45,0,.55,1) .3s infinite both}@keyframes scan{0%{transform:translateY(0);opacity:0}5%{opacity:1}55%{transform:translateY(288px);opacity:1}62%,100%{transform:translateY(288px);opacity:0}}
+text{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif}
+.mono{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace}
+.muted{fill:#656d76}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.3}}
+
 @media (prefers-reduced-motion:reduce){*{animation:none!important}}
 </style>
-<defs><pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#1f2328" fill-opacity=".07"/></pattern><radialGradient id="glow" cx="18%" cy="0%" r="70%"><stop offset="0" stop-color="#0969da" stop-opacity=".16"/><stop offset="1" stop-color="#0969da" stop-opacity="0"/></radialGradient></defs>
-<rect width="1000" height="720" rx="14" fill="#ffffff"/>
-<rect width="1000" height="720" rx="14" fill="url(#dots)"/>
-<rect width="1000" height="720" rx="14" fill="url(#glow)"/>
-<rect x=".5" y=".5" width="999" height="719" rx="14" fill="none" stroke="#d0d7de"/>
-<text x="48" y="92" class="sans" font-size="50" font-weight="800" letter-spacing="-1.5">Yurii Shchehliuk</text>
-<text x="50" y="128" class="sans muted" font-size="19">Full-stack engineer · C# / .NET · Angular · Next.js</text>
-<text x="952" y="86" text-anchor="end" class="sans" font-size="16" font-weight="600"><tspan class="ok dot">●</tspan>&#160; open to work</text>
-<text x="952" y="110" text-anchor="end" class="sans muted" font-size="15">Chicago · remote</text>
-<rect x="30" y="160" width="940" height="112" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
-<text x="48" y="182" font-size="11" letter-spacing="1.5" class="muted">ISA · 106 CHARACTERS, FIXED WIDTH, SO THE DELIMITERS CAN BE FOUND BEFORE ANYTHING IS SPLIT</text>
-<text y="210" font-size="14"><tspan x="48.0 56.5 64.9" class="seg">ISA</tspan><tspan x="73.3" class="el key">*</tspan><tspan x="81.8 90.2" class="text">00</tspan><tspan x="98.7" class="el">*</tspan><tspan x="107.1 115.6 124.0 132.5 140.9 149.4 157.8 166.3 174.8 183.2" class="text">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan x="191.6" class="el">*</tspan><tspan x="200.1 208.5" class="text">00</tspan><tspan x="217.0" class="el">*</tspan><tspan x="225.4 233.9 242.3 250.8 259.2 267.7 276.1 284.6 293.0 301.5" class="text">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan x="309.9" class="el">*</tspan><tspan x="318.4 326.8" class="text">ZZ</tspan><tspan x="335.3" class="el">*</tspan><tspan x="343.8 352.2 360.6 369.1 377.5 386.0 394.4 402.9 411.3 419.8 428.2 436.7 445.1 453.6 462.0" class="text">YURII1EXE&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan x="470.5" class="el">*</tspan><tspan x="478.9 487.4" class="text">ZZ</tspan><tspan x="495.8" class="el">*</tspan><tspan x="504.3 512.8 521.2 529.6 538.1 546.5 555.0 563.4 571.9 580.3 588.8 597.2 605.7 614.1 622.6" class="text">YOUR&#160;TEAM&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan x="631.0" class="el">*</tspan><tspan x="639.5 647.9 656.4 664.8 673.3 681.8" class="text">261022</tspan><tspan x="690.2" class="el">*</tspan><tspan x="698.6 707.1 715.5 724.0" class="text">0900</tspan><tspan x="732.4" class="el">*</tspan><tspan x="740.9" class="comp">^</tspan><tspan x="749.3" class="el">*</tspan><tspan x="757.8 766.2 774.7 783.1 791.6" class="text">00501</tspan><tspan x="800.0" class="el">*</tspan><tspan x="808.5 816.9 825.4 833.8 842.3 850.7 859.2 867.6 876.1" class="text">000000001</tspan><tspan x="884.5" class="el">*</tspan><tspan x="893.0" class="text">0</tspan><tspan x="901.4" class="el">*</tspan><tspan x="909.9" class="text">P</tspan><tspan x="918.3" class="el">*</tspan><tspan x="926.8" class="comp key">:</tspan><tspan x="935.2" class="term key">~</tspan></text>
-<line x1="77.6" y1="216" x2="77.6" y2="240" stroke="#0969da" stroke-width="1.5"/><text x="73.6" y="252" text-anchor="start" font-size="12.5" font-weight="600" class="el">element separator · offset 3</text>
-<line x1="931.0" y1="216" x2="931.0" y2="232" stroke="#8250df" stroke-width="1.5"/><text x="935.0" y="244" text-anchor="end" font-size="12.5" font-weight="600" class="comp">component separator · offset 104</text>
-<line x1="939.5" y1="216" x2="939.5" y2="250" stroke="#cf222e" stroke-width="1.5"/><text x="943.5" y="262" text-anchor="end" font-size="12.5" font-weight="600" class="term">segment terminator · offset 105</text>
-<text x="48" y="302" font-size="11" letter-spacing="1.5" class="muted">WIRE</text>
-<text x="520" y="302" font-size="11" letter-spacing="1.5" class="muted">READ AS</text>
-<line x1="500" y1="288" x2="500" y2="622" stroke="#d0d7de"/>
-<rect x="34" y="313" width="932" height="22" rx="4" fill="#0969da" fill-opacity=".11" class="scan"/>
-<text y="329" font-size="13.5"><tspan x="48.0 55.9" class="seg">GS</tspan><tspan x="63.8" class="el">*</tspan><tspan x="71.7 79.6" class="text">QM</tspan><tspan x="87.5" class="el">*</tspan><tspan x="95.4 103.3 111.2 119.1 127.0 134.9 142.8 150.7 158.6" class="text">YURII1EXE</tspan><tspan x="166.5" class="el">*</tspan><tspan x="174.4 182.3 190.2 198.1 206.0 213.9 221.8 229.7" class="text">YOURTEAM</tspan><tspan x="237.6" class="el">*</tspan><tspan x="245.5 253.4 261.3 269.2 277.1 285.0 292.9 300.8" class="text">20261022</tspan><tspan x="308.7" class="el">*</tspan><tspan x="316.6 324.5 332.4 340.3" class="text">0900</tspan><tspan x="348.2" class="el">*</tspan><tspan x="356.1" class="text">1</tspan><tspan x="364.0" class="el">*</tspan><tspan x="371.9" class="text">X</tspan><tspan x="379.8" class="el">*</tspan><tspan x="387.7 395.6 403.5 411.4 419.3 427.2" class="text">005010</tspan><tspan x="435.1" class="term">~</tspan></text>
-<text x="608" y="329" font-size="13.5" class="muted">group · X12 005010</text>
-<text y="353" font-size="13.5"><tspan x="48.0 55.9" class="seg">ST</tspan><tspan x="63.8" class="el">*</tspan><tspan x="71.7 79.6 87.5" class="text">214</tspan><tspan x="95.4" class="el">*</tspan><tspan x="103.3 111.2 119.1 127.0" class="text">0001</tspan><tspan x="134.9" class="term">~</tspan></text>
-<text x="608" y="353" font-size="13.5" class="muted">214 · shipment status</text>
-<text y="377" font-size="13.5"><tspan x="48.0 55.9 63.8" class="seg">B10</tspan><tspan x="71.7" class="el">*</tspan><tspan x="79.6 87.5 95.4 103.3 111.2 119.1" class="text">YS2026</tspan><tspan x="127.0" class="el">*</tspan><tspan x="134.9 142.8 150.7 158.6 166.5 174.4 182.3 190.2 198.1 206.0 213.9 221.8 229.7 237.6" class="text">DOTNET-ANGULAR</tspan><tspan x="245.5" class="el">*</tspan><tspan x="253.4 261.3 269.2 277.1" class="text">YURI</tspan><tspan x="285.0" class="term">~</tspan></text>
-<text x="520" y="377" font-size="13.5" class="muted">shipment</text><text x="608" y="377" font-size="13.5" font-weight="600">dotnet-angular</text>
-<text y="401" font-size="13.5"><tspan x="48.0 55.9 63.8" class="seg">L11</tspan><tspan x="71.7" class="el">*</tspan><tspan x="79.6 87.5 95.4 103.3 111.2 119.1 127.0 134.9 142.8 150.7 158.6 166.5 174.4 182.3 190.2 198.1 206.0 213.9 221.8 229.7 237.6 245.5 253.4 261.3 269.2 277.1 285.0 292.9 300.8 308.7 316.6 324.5 332.4 340.3" class="text">CSHARP&#160;DOTNET&#160;ANGULAR&#160;NEXTJS&#160;AZURE</tspan><tspan x="348.2" class="el">*</tspan><tspan x="356.1 364.0" class="text">ZZ</tspan><tspan x="371.9" class="term">~</tspan></text>
-<text x="520" y="401" font-size="13.5" class="muted">carries</text><text x="608" y="401" font-size="13.5" font-weight="600">C# · .NET · Angular · Next.js · Azure</text>
-<text y="425" font-size="13.5"><tspan x="48.0 55.9" class="seg">N1</tspan><tspan x="63.8" class="el">*</tspan><tspan x="71.7 79.6" class="text">SF</tspan><tspan x="87.5" class="el">*</tspan><tspan x="95.4 103.3 111.2 119.1 127.0 134.9 142.8 150.7 158.6 166.5 174.4 182.3 190.2 198.1 206.0 213.9" class="text">YURII&#160;SHCHEHLIUK</tspan><tspan x="221.8" class="term">~</tspan></text>
-<text x="520" y="425" font-size="13.5" class="muted">from</text><text x="608" y="425" font-size="13.5" font-weight="600">Yurii Shchehliuk</text>
-<text y="449" font-size="13.5"><tspan x="48.0 55.9" class="seg">N4</tspan><tspan x="63.8" class="el">*</tspan><tspan x="71.7 79.6 87.5 95.4 103.3 111.2 119.1" class="text">CHICAGO</tspan><tspan x="127.0" class="el">*</tspan><tspan x="134.9 142.8" class="text">IL</tspan><tspan x="150.7" class="el">*</tspan><tspan x="158.6 166.5" class="text">US</tspan><tspan x="174.4" class="term">~</tspan></text>
-<text x="520" y="449" font-size="13.5" class="muted"></text><text x="608" y="449" font-size="13.5" font-weight="600">Chicago, IL</text>
-<text y="473" font-size="13.5"><tspan x="48.0 55.9" class="seg">N1</tspan><tspan x="63.8" class="el">*</tspan><tspan x="71.7 79.6" class="text">ST</tspan><tspan x="87.5" class="el">*</tspan><tspan x="95.4 103.3 111.2 119.1 127.0 134.9 142.8 150.7 158.6" class="text">YOUR&#160;TEAM</tspan><tspan x="166.5" class="term">~</tspan></text>
-<text x="520" y="473" font-size="13.5" class="muted">to</text><text x="608" y="473" font-size="13.5" font-weight="600">your team</text>
-<text y="497" font-size="13.5"><tspan x="48.0 55.9" class="seg">LX</tspan><tspan x="63.8" class="el">*</tspan><tspan x="71.7" class="text">1</tspan><tspan x="79.6" class="term">~</tspan></text>
-<text x="608" y="497" font-size="13.5" class="muted">stop 1</text>
-<text y="521" font-size="13.5"><tspan x="48.0 55.9 63.8" class="seg">AT7</tspan><tspan x="71.7" class="el">*</tspan><tspan x="79.6 87.5" class="text">X6</tspan><tspan x="95.4" class="el">*</tspan><tspan x="103.3 111.2" class="text">NS</tspan><tspan x="119.1" class="el">*</tspan><tspan x="127.0" class="el">*</tspan><tspan x="134.9" class="el">*</tspan><tspan x="142.8 150.7 158.6 166.5 174.4 182.3 190.2 198.1" class="text">20261022</tspan><tspan x="206.0" class="el">*</tspan><tspan x="213.9 221.8 229.7 237.6" class="text">0900</tspan><tspan x="245.5" class="el">*</tspan><tspan x="253.4 261.3" class="text">CT</tspan><tspan x="269.2" class="term">~</tspan></text>
-<text x="520" y="521" font-size="13.5" class="muted">status</text><text x="608" y="521" font-size="13.5" font-weight="600">X6 · en route to delivery location</text>
-<text y="545" font-size="13.5"><tspan x="48.0 55.9 63.8" class="seg">MS1</tspan><tspan x="71.7" class="el">*</tspan><tspan x="79.6 87.5 95.4 103.3 111.2 119.1 127.0" class="text">CHICAGO</tspan><tspan x="134.9" class="el">*</tspan><tspan x="142.8 150.7" class="text">IL</tspan><tspan x="158.6" class="el">*</tspan><tspan x="166.5 174.4" class="text">US</tspan><tspan x="182.3" class="term">~</tspan></text>
-<text x="608" y="545" font-size="13.5" class="muted">reported from Chicago, IL</text>
-<text y="569" font-size="13.5"><tspan x="48.0 55.9" class="seg">SE</tspan><tspan x="63.8" class="el">*</tspan><tspan x="71.7 79.6" class="text">10</tspan><tspan x="87.5" class="el">*</tspan><tspan x="95.4 103.3 111.2 119.1" class="text">0001</tspan><tspan x="127.0" class="term">~</tspan></text>
-<text x="608" y="569" font-size="13.5" class="muted">10 segments, counted</text>
-<text y="593" font-size="13.5"><tspan x="48.0 55.9" class="seg">GE</tspan><tspan x="63.8" class="el">*</tspan><tspan x="71.7" class="text">1</tspan><tspan x="79.6" class="el">*</tspan><tspan x="87.5" class="text">1</tspan><tspan x="95.4" class="term">~</tspan></text>
-<text x="608" y="593" font-size="13.5" class="muted">group closed</text>
-<text y="617" font-size="13.5"><tspan x="48.0 55.9 63.8" class="seg">IEA</tspan><tspan x="71.7" class="el">*</tspan><tspan x="79.6" class="text">1</tspan><tspan x="87.5" class="el">*</tspan><tspan x="95.4 103.3 111.2 119.1 127.0 134.9 142.8 150.7 158.6" class="text">000000001</tspan><tspan x="166.5" class="term">~</tspan></text>
-<text x="608" y="617" font-size="13.5" class="muted">interchange closed</text>
-<line x1="30" y1="660" x2="970" y2="660" stroke="#d0d7de"/>
-<text x="48" y="690" font-size="13.5"><tspan class="muted">$ </tspan>edix12 validate yurii1exe.edi<tspan class="ok" dx="22">✓ SE01 = 10 · 0 diagnostics</tspan><tspan class="cur" dx="6">▍</tspan></text>
+<defs><pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#1f2328" fill-opacity=".07"/></pattern><radialGradient id="glow" cx="15%" cy="0%" r="75%"><stop offset="0" stop-color="#0969da" stop-opacity=".16"/><stop offset="1" stop-color="#0969da" stop-opacity="0"/></radialGradient><radialGradient id="glow2" cx="95%" cy="100%" r="60%"><stop offset="0" stop-color="#8250df" stop-opacity=".12"/><stop offset="1" stop-color="#8250df" stop-opacity="0"/></radialGradient><linearGradient id="flow" x1="0" x2="1000" y1="0" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0969da"/><stop offset=".5" stop-color="#8250df"/><stop offset="1" stop-color="#1a7f37"/></linearGradient></defs>
+<rect width="1000" height="540" rx="16" fill="#ffffff"/>
+<rect width="1000" height="540" rx="16" fill="url(#dots)"/>
+<rect width="1000" height="540" rx="16" fill="url(#glow)"/>
+<rect width="1000" height="540" rx="16" fill="url(#glow2)"/>
+<rect x=".5" y=".5" width="999" height="539" rx="16" fill="none" stroke="#d0d7de"/>
+<text x="48" y="94" font-size="52" font-weight="800" letter-spacing="-1.5">Yurii Shchehliuk</text>
+<text x="50" y="132" font-size="20" class="muted">Full-stack engineer · C# / .NET · Angular · Next.js</text>
+<text x="952" y="86" text-anchor="end" font-size="16" font-weight="600"><tspan fill="#1a7f37" class="pulse">●</tspan>&#160; open to work</text>
+<text x="952" y="110" text-anchor="end" font-size="15" class="muted">Chicago · remote</text>
+<path d="M214.0,222.0 C292.0,222.0 292.0,335.0 370.0,335.0" transform="translate(0 -5)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.18"/>
+<path d="M214.0,222.0 C292.0,222.0 292.0,335.0 370.0,335.0" transform="translate(0 5)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.18"/>
+<path d="M214.0,222.0 C292.0,222.0 292.0,335.0 370.0,335.0" transform="translate(0 0)" fill="none" stroke="url(#flow)" stroke-width="1.6" stroke-opacity="0.75"/>
+<path id="p0" d="M214.0,222.0 C292.0,222.0 292.0,335.0 370.0,335.0" fill="none" stroke="none"/>
+<path d="M214.0,291.5 C292.0,291.5 292.0,348.0 370.0,348.0" transform="translate(0 -5)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.18"/>
+<path d="M214.0,291.5 C292.0,291.5 292.0,348.0 370.0,348.0" transform="translate(0 5)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.18"/>
+<path d="M214.0,291.5 C292.0,291.5 292.0,348.0 370.0,348.0" transform="translate(0 0)" fill="none" stroke="url(#flow)" stroke-width="1.6" stroke-opacity="0.75"/>
+<path id="p1" d="M214.0,291.5 C292.0,291.5 292.0,348.0 370.0,348.0" fill="none" stroke="none"/>
+<path d="M214.0,361.0 C292.0,361.0 292.0,361.0 370.0,361.0" transform="translate(0 -5)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.18"/>
+<path d="M214.0,361.0 C292.0,361.0 292.0,361.0 370.0,361.0" transform="translate(0 5)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.18"/>
+<path d="M214.0,361.0 C292.0,361.0 292.0,361.0 370.0,361.0" transform="translate(0 0)" fill="none" stroke="url(#flow)" stroke-width="1.6" stroke-opacity="0.75"/>
+<path id="p2" d="M214.0,361.0 C292.0,361.0 292.0,361.0 370.0,361.0" fill="none" stroke="none"/>
+<path d="M214.0,430.5 C292.0,430.5 292.0,374.0 370.0,374.0" transform="translate(0 -5)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.18"/>
+<path d="M214.0,430.5 C292.0,430.5 292.0,374.0 370.0,374.0" transform="translate(0 5)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.18"/>
+<path d="M214.0,430.5 C292.0,430.5 292.0,374.0 370.0,374.0" transform="translate(0 0)" fill="none" stroke="url(#flow)" stroke-width="1.6" stroke-opacity="0.75"/>
+<path id="p3" d="M214.0,430.5 C292.0,430.5 292.0,374.0 370.0,374.0" fill="none" stroke="none"/>
+<path d="M214.0,500.0 C292.0,500.0 292.0,387.0 370.0,387.0" transform="translate(0 -5)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.18"/>
+<path d="M214.0,500.0 C292.0,500.0 292.0,387.0 370.0,387.0" transform="translate(0 5)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.18"/>
+<path d="M214.0,500.0 C292.0,500.0 292.0,387.0 370.0,387.0" transform="translate(0 0)" fill="none" stroke="url(#flow)" stroke-width="1.6" stroke-opacity="0.75"/>
+<path id="p4" d="M214.0,500.0 C292.0,500.0 292.0,387.0 370.0,387.0" fill="none" stroke="none"/>
+<path d="M630.0,337.0 C708.0,337.0 708.0,244.0 786.0,244.0" transform="translate(0 -5)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.18"/>
+<path d="M630.0,337.0 C708.0,337.0 708.0,244.0 786.0,244.0" transform="translate(0 5)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.18"/>
+<path d="M630.0,337.0 C708.0,337.0 708.0,244.0 786.0,244.0" transform="translate(0 0)" fill="none" stroke="url(#flow)" stroke-width="1.6" stroke-opacity="0.75"/>
+<path id="p5" d="M630.0,337.0 C708.0,337.0 708.0,244.0 786.0,244.0" fill="none" stroke="none"/>
+<path d="M630.0,353.0 C708.0,353.0 708.0,322.0 786.0,322.0" transform="translate(0 -5)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.18"/>
+<path d="M630.0,353.0 C708.0,353.0 708.0,322.0 786.0,322.0" transform="translate(0 5)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.18"/>
+<path d="M630.0,353.0 C708.0,353.0 708.0,322.0 786.0,322.0" transform="translate(0 0)" fill="none" stroke="url(#flow)" stroke-width="1.6" stroke-opacity="0.75"/>
+<path id="p6" d="M630.0,353.0 C708.0,353.0 708.0,322.0 786.0,322.0" fill="none" stroke="none"/>
+<path d="M630.0,369.0 C708.0,369.0 708.0,400.0 786.0,400.0" transform="translate(0 -5)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.18"/>
+<path d="M630.0,369.0 C708.0,369.0 708.0,400.0 786.0,400.0" transform="translate(0 5)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.18"/>
+<path d="M630.0,369.0 C708.0,369.0 708.0,400.0 786.0,400.0" transform="translate(0 0)" fill="none" stroke="url(#flow)" stroke-width="1.6" stroke-opacity="0.75"/>
+<path id="p7" d="M630.0,369.0 C708.0,369.0 708.0,400.0 786.0,400.0" fill="none" stroke="none"/>
+<path d="M630.0,385.0 C708.0,385.0 708.0,478.0 786.0,478.0" transform="translate(0 -5)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.18"/>
+<path d="M630.0,385.0 C708.0,385.0 708.0,478.0 786.0,478.0" transform="translate(0 5)" fill="none" stroke="url(#flow)" stroke-width="1" stroke-opacity="0.18"/>
+<path d="M630.0,385.0 C708.0,385.0 708.0,478.0 786.0,478.0" transform="translate(0 0)" fill="none" stroke="url(#flow)" stroke-width="1.6" stroke-opacity="0.75"/>
+<path id="p8" d="M630.0,385.0 C708.0,385.0 708.0,478.0 786.0,478.0" fill="none" stroke="none"/>
+<circle r="3" fill="url(#flow)"><animateMotion dur="3.20s" begin="-0.00s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .6 1"><mpath href="#p0"/></animateMotion></circle>
+<circle r="3" fill="url(#flow)"><animateMotion dur="3.20s" begin="-1.60s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .6 1"><mpath href="#p0"/></animateMotion></circle>
+<circle r="3" fill="url(#flow)"><animateMotion dur="3.57s" begin="-0.53s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .6 1"><mpath href="#p1"/></animateMotion></circle>
+<circle r="3" fill="url(#flow)"><animateMotion dur="3.57s" begin="-2.32s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .6 1"><mpath href="#p1"/></animateMotion></circle>
+<circle r="3" fill="url(#flow)"><animateMotion dur="3.94s" begin="-1.06s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .6 1"><mpath href="#p2"/></animateMotion></circle>
+<circle r="3" fill="url(#flow)"><animateMotion dur="3.94s" begin="-3.03s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .6 1"><mpath href="#p2"/></animateMotion></circle>
+<circle r="3" fill="url(#flow)"><animateMotion dur="4.31s" begin="-1.59s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .6 1"><mpath href="#p3"/></animateMotion></circle>
+<circle r="3" fill="url(#flow)"><animateMotion dur="4.31s" begin="-3.75s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .6 1"><mpath href="#p3"/></animateMotion></circle>
+<circle r="3" fill="url(#flow)"><animateMotion dur="3.28s" begin="-2.12s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .6 1"><mpath href="#p4"/></animateMotion></circle>
+<circle r="3" fill="url(#flow)"><animateMotion dur="3.28s" begin="-3.76s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .6 1"><mpath href="#p4"/></animateMotion></circle>
+<circle r="3" fill="url(#flow)"><animateMotion dur="3.65s" begin="-2.65s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .6 1"><mpath href="#p5"/></animateMotion></circle>
+<circle r="3" fill="url(#flow)"><animateMotion dur="3.65s" begin="-4.48s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .6 1"><mpath href="#p5"/></animateMotion></circle>
+<circle r="3" fill="url(#flow)"><animateMotion dur="4.02s" begin="-3.18s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .6 1"><mpath href="#p6"/></animateMotion></circle>
+<circle r="3" fill="url(#flow)"><animateMotion dur="4.02s" begin="-5.19s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .6 1"><mpath href="#p6"/></animateMotion></circle>
+<circle r="3" fill="url(#flow)"><animateMotion dur="4.39s" begin="-3.71s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .6 1"><mpath href="#p7"/></animateMotion></circle>
+<circle r="3" fill="url(#flow)"><animateMotion dur="4.39s" begin="-5.91s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .6 1"><mpath href="#p7"/></animateMotion></circle>
+<circle r="3" fill="url(#flow)"><animateMotion dur="3.36s" begin="-4.24s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .6 1"><mpath href="#p8"/></animateMotion></circle>
+<circle r="3" fill="url(#flow)"><animateMotion dur="3.36s" begin="-5.92s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .6 1"><mpath href="#p8"/></animateMotion></circle>
+<circle cx="214" cy="222.0" r="4.5" fill="#ffffff" stroke="#0969da" stroke-width="2"/>
+<text x="198" y="227.0" text-anchor="end" font-size="15">SQL databases</text>
+<circle cx="214" cy="291.5" r="4.5" fill="#ffffff" stroke="#0969da" stroke-width="2"/>
+<text x="198" y="296.5" text-anchor="end" font-size="15">REST &amp; GraphQL APIs</text>
+<circle cx="214" cy="361.0" r="4.5" fill="#ffffff" stroke="#0969da" stroke-width="2"/>
+<text x="198" y="366.0" text-anchor="end" font-size="15">message queues</text>
+<circle cx="214" cy="430.5" r="4.5" fill="#ffffff" stroke="#0969da" stroke-width="2"/>
+<text x="198" y="435.5" text-anchor="end" font-size="15">devices &amp; sensors</text>
+<circle cx="214" cy="500.0" r="4.5" fill="#ffffff" stroke="#0969da" stroke-width="2"/>
+<text x="198" y="505.0" text-anchor="end" font-size="15">partner data feeds</text>
+<circle cx="786" cy="244.0" r="4.5" fill="#ffffff" stroke="#1a7f37" stroke-width="2"/>
+<text x="802" y="249.0" font-size="15">Angular apps</text>
+<circle cx="786" cy="322.0" r="4.5" fill="#ffffff" stroke="#1a7f37" stroke-width="2"/>
+<text x="802" y="327.0" font-size="15">Next.js sites</text>
+<circle cx="786" cy="400.0" r="4.5" fill="#ffffff" stroke="#1a7f37" stroke-width="2"/>
+<text x="802" y="405.0" font-size="15">real-time dashboards</text>
+<circle cx="786" cy="478.0" r="4.5" fill="#ffffff" stroke="#1a7f37" stroke-width="2"/>
+<text x="802" y="483.0" font-size="15">reports &amp; documents</text>
+<rect x="370.0" y="313.0" width="260" height="96" rx="14" fill="#f6f8fa" stroke="url(#flow)" stroke-width="1.5"/>
+<text x="500.0" y="355.0" text-anchor="middle" font-size="22" font-weight="800">C# / .NET</text>
+<text x="500.0" y="381.0" text-anchor="middle" font-size="12.5" class="mono muted">ASP.NET Core · EF Core · SignalR</text>
+<text x="500.0" y="299.0" text-anchor="middle" font-size="11" letter-spacing="2" class="mono muted">THE INTEGRATION LAYER</text>
 </svg>

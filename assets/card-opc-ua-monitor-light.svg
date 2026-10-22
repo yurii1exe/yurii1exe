@@ -1,31 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="150" viewBox="0 0 1000 150" role="img" aria-label="03 opc-ua-monitor: Live plant data, and honest when it goes stale.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="150" viewBox="0 0 1000 150" fill="#1f2328" role="img" aria-label="03 opc-ua-monitor: Live plant data, and honest when it goes stale.">
 <style>
-text{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;fill:#1f2328}
-.sans{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif}
-.seg{fill:#9a6700;font-weight:700} .el{fill:#0969da} .term{fill:#cf222e} .comp{fill:#8250df}
-.muted{fill:#656d76} .ok{fill:#1a7f37}
-.key{font-weight:700;animation:glow 2.4s ease-in-out infinite}
-.dot{animation:glow 2.4s ease-in-out infinite}
-.cur{animation:blink 1.1s steps(1) infinite}
-@keyframes glow{50%{opacity:.3}}
-@keyframes blink{50%{opacity:0}}
+text{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif}
+.mono{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace}
+.muted{fill:#656d76}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.3}}
 
 @media (prefers-reduced-motion:reduce){*{animation:none!important}}
 </style>
-<defs><pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#1f2328" fill-opacity=".07"/></pattern><radialGradient id="glow" cx="18%" cy="0%" r="70%"><stop offset="0" stop-color="#0969da" stop-opacity=".16"/><stop offset="1" stop-color="#0969da" stop-opacity="0"/></radialGradient></defs>
-<rect width="1000" height="150" rx="14" fill="#ffffff"/>
-<rect width="1000" height="150" rx="14" fill="url(#dots)"/>
-<rect width="1000" height="150" rx="14" fill="url(#glow)"/>
-<rect x=".5" y=".5" width="999" height="149" rx="14" fill="none" stroke="#d0d7de"/>
-<rect x="16" y="28" width="3" height="94" rx="1.5" fill="#9a6700"/>
-<text x="34" y="74" font-size="40" font-weight="800" fill="none" stroke="#9a6700" stroke-width="1.2">03</text>
-<text x="104" y="50" font-size="12.5" class="muted">github.com/yurii1exe/<tspan class="el">opc-ua-monitor</tspan></text>
-<text x="104" y="82" font-size="27" font-weight="700">opc-ua-monitor</text>
-<text x="105" y="108" class="sans muted" font-size="16">Live plant data, and honest when it goes stale.</text>
-<rect x="104" y="120" width="57.6" height="20" rx="10" fill="#f6f8fa" stroke="#d0d7de"/><text x="132.8" y="134" text-anchor="middle" font-size="11" class="muted" textLength="39.6" lengthAdjust="spacingAndGlyphs">.NET 8</text>
-<rect x="169.6" y="120" width="57.6" height="20" rx="10" fill="#f6f8fa" stroke="#d0d7de"/><text x="198.4" y="134" text-anchor="middle" font-size="11" class="muted" textLength="39.6" lengthAdjust="spacingAndGlyphs">OPC UA</text>
-<rect x="235.2" y="120" width="64.2" height="20" rx="10" fill="#f6f8fa" stroke="#d0d7de"/><text x="267.3" y="134" text-anchor="middle" font-size="11" class="muted" textLength="46.2" lengthAdjust="spacingAndGlyphs">SignalR</text>
-<rect x="307.4" y="120" width="64.2" height="20" rx="10" fill="#f6f8fa" stroke="#d0d7de"/><text x="339.5" y="134" text-anchor="middle" font-size="11" class="muted" textLength="46.2" lengthAdjust="spacingAndGlyphs">Angular</text>
-<text x="960" y="50" text-anchor="end" font-size="12.5" class="comp" font-weight="600">stale ≠ current</text>
-<text x="960" y="84" text-anchor="end" font-size="14"><tspan class="seg">node</tspan><tspan class="term"> → </tspan><tspan class="el">subscription</tspan><tspan class="term"> → </tspan><tspan class="el">SignalR</tspan><tspan class="term"> → </tspan><tspan class="seg">chart</tspan></text>
+<defs><pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#1f2328" fill-opacity=".07"/></pattern><radialGradient id="glow" cx="15%" cy="0%" r="75%"><stop offset="0" stop-color="#0969da" stop-opacity=".16"/><stop offset="1" stop-color="#0969da" stop-opacity="0"/></radialGradient><radialGradient id="glow2" cx="95%" cy="100%" r="60%"><stop offset="0" stop-color="#8250df" stop-opacity=".12"/><stop offset="1" stop-color="#8250df" stop-opacity="0"/></radialGradient><linearGradient id="flow" x1="0" x2="1000" y1="0" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0969da"/><stop offset=".5" stop-color="#8250df"/><stop offset="1" stop-color="#1a7f37"/></linearGradient></defs>
+<rect width="1000" height="150" rx="16" fill="#ffffff"/>
+<rect width="1000" height="150" rx="16" fill="url(#dots)"/>
+<rect width="1000" height="150" rx="16" fill="url(#glow)"/>
+<rect width="1000" height="150" rx="16" fill="url(#glow2)"/>
+<rect x=".5" y=".5" width="999" height="149" rx="16" fill="none" stroke="#d0d7de"/>
+<rect x="16" y="28" width="3" height="94" rx="1.5" fill="url(#flow)"/>
+<text x="36" y="76" font-size="42" font-weight="800" fill="none" stroke="url(#flow)" stroke-width="1.3">03</text>
+<text x="106" y="50" font-size="12.5" class="mono muted">github.com/yurii1exe/<tspan fill="#0969da">opc-ua-monitor</tspan></text>
+<text x="105" y="83" font-size="27" font-weight="750" class="mono">opc-ua-monitor</text>
+<text x="106" y="108" font-size="16" class="muted">Live plant data, and honest when it goes stale.</text>
+<rect x="106" y="120" width="57.6" height="20" rx="10" fill="#f6f8fa" stroke="#d0d7de"/><text x="134.8" y="134" text-anchor="middle" font-size="11" class="mono muted" textLength="39.6" lengthAdjust="spacingAndGlyphs">.NET 8</text>
+<rect x="171.6" y="120" width="57.6" height="20" rx="10" fill="#f6f8fa" stroke="#d0d7de"/><text x="200.4" y="134" text-anchor="middle" font-size="11" class="mono muted" textLength="39.6" lengthAdjust="spacingAndGlyphs">OPC UA</text>
+<rect x="237.2" y="120" width="64.2" height="20" rx="10" fill="#f6f8fa" stroke="#d0d7de"/><text x="269.3" y="134" text-anchor="middle" font-size="11" class="mono muted" textLength="46.2" lengthAdjust="spacingAndGlyphs">SignalR</text>
+<rect x="309.4" y="120" width="64.2" height="20" rx="10" fill="#f6f8fa" stroke="#d0d7de"/><text x="341.5" y="134" text-anchor="middle" font-size="11" class="mono muted" textLength="46.2" lengthAdjust="spacingAndGlyphs">Angular</text>
+<text x="960" y="50" text-anchor="end" font-size="13" font-weight="600" fill="#8250df">real-time</text>
+<text x="960" y="84" text-anchor="end" font-size="14" class="mono"><tspan fill="#0969da">machine</tspan><tspan class="muted"> → </tspan><tspan fill="#8250df">subscription</tspan><tspan class="muted"> → </tspan><tspan fill="#8250df">SignalR</tspan><tspan class="muted"> → </tspan><tspan fill="#1a7f37">chart</tspan></text>
 </svg>
