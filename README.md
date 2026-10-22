@@ -12,30 +12,20 @@ breaks when the software gets it wrong. The code came after that.
 
 [LinkedIn](https://www.linkedin.com/in/yurii1exe/) · [yshchehliuk@gmail.com](mailto:yshchehliuk@gmail.com) · [disit.tech](https://disit.tech)
 
-### How I work, in four scenes
+### How I work
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/principles-dark.svg">
-  <img src="assets/principles-light.svg" width="100%" alt="How I work, as four film frames. 01, Ted Lasso: 'Be curious, not judgmental.' Start with the person doing the job. 02, The Hitchhiker's Guide to the Galaxy: 'Forty-two.' Know the question before the answer. 03, Apollo 13: 'We gotta find a way to make this fit into the hole for this, using nothing but that.' Make what's there work together. 04, The Martian: 'You solve one problem, and you solve the next one, and then the next.' Ship the smallest thing that pays.">
-</picture>
+**Start with the person doing the job.** Before designing anything, I find out how
+the dispatcher, the operator or the clinician does the work today and where it
+hurts. Software that ignores that gets worked around.
 
-<details>
-<summary>Read the scenes as text</summary>
-<br>
+**Price the failure.** Know what it costs when the system is wrong, a rejected
+invoice or a stale reading on a production line, and design for that case first.
 
-**Start with the person doing the job.** *Ted Lasso: "Be curious, not judgmental."*
-Before designing anything, find out how the dispatcher, the operator or the clinician works today, and where it hurts.
+**Ship the smallest thing that pays for itself.** Then grow it with real usage,
+not guesses.
 
-**Know the question before the answer.** *The Hitchhiker's Guide to the Galaxy: "Forty-two."*
-A precise answer to a misunderstood question is worth nothing. Pin down the problem and the cost of getting it wrong.
-
-**Make what's there work together.** *Apollo 13: "We gotta find a way to make this fit into the hole for this, using nothing but that."*
-Every business already runs on systems that were never meant to talk. Connecting them usually beats replacing them.
-
-**Ship the smallest thing that pays.** *The Martian: "You solve one problem, and you solve the next one, and then the next."*
-Then the next one. Real usage decides what to build after that, not guesses made up front.
-
-</details>
+**Make what's there work together.** Every business already runs on systems that
+were never meant to talk. Connecting them usually beats replacing them.
 
 <br>
 
@@ -100,4 +90,4 @@ Then the next one. Real usage decides what to build after that, not guesses made
   <img src="assets/contact-light.svg" width="100%" alt="Tell me how your business works. I'll tell you what to build, and what not to. Contact: yshchehliuk@gmail.com, linkedin.com/in/yurii1exe, disit.tech.">
 </picture></a>
 
-<p align="center"><sub>Open to senior full-time or contract roles, remote or in Chicago. Corp-to-corp through DIS IT LLC.<br>So long, and thanks for all the fish.</sub></p>
+<p align="center"><sub>Open to senior full-time or contract roles, remote or in Chicago. Corp-to-corp through DIS IT LLC.</sub></p>
