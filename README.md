@@ -83,3 +83,5 @@ old data as current.
   <source media="(prefers-color-scheme: dark)" srcset="assets/contact-dark.svg">
   <img src="assets/contact-light.svg" width="100%" alt="Have two systems that should talk? Contact: yshchehliuk@gmail.com, linkedin.com/in/yurii1exe, disit.tech. Open to senior full-time, contract and corp-to-corp work, remote or Chicago.">
 </picture></a>
+
+<p align="center"><sub>Open to senior full-time or contract roles, remote or in Chicago. Corp-to-corp through DIS IT LLC.</sub></p>
